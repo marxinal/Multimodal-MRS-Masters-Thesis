@@ -23,10 +23,16 @@ Second, go to Google Collab and open the ```Models_Thesis.ipynb``` to run the au
 
 Next, on your local computer, start creating the recommendation systems in the following order: ```recommendations_audio.py```, ```recommendations_multi.py```, ```recommendations_random.py```, ```recommendations_genre.py```. To check how many recommendations from audio-only and multimodal MRS were the same run ```check_recommendations.py```. To combine all of the recommendations for the experiment, run ```all_recommendations.py```.
 
-Lastly, run the experiment on participant 1 and participant 2 with ```experiment_1.py``` and ```experiment_2.py```.
+Lastly, to make the experiment the audio files need to be cut again into 10-second snippets. For that run ```ten_sec_audio.py```, run the experiment on participant 1 and participant 2 with ```experiment_1.py``` and ```experiment_2.py```.
 
+# Additional 
 
 If you want to check or create a power simulation analysis, check ```power_simulation.py``` to get the power estimates (for this study) when making conclusions about a single participant and ```power_simulation_future.py``` to get the power estimates (a future recommendation) when making conclusions about the population (with more participants possible). 
+
+If you want to make plots from the trained models, run ```graph_audio.py``` and ```graph_multi.py```. The scripts contain code to create the accuracy and loss graphs (training versus validation test set), and the confusion matrices to compare the genre classification. 
+
+
+
 
 
 
