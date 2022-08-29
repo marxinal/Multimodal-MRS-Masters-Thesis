@@ -103,14 +103,6 @@ X_valD_input_ids,X_valD_attn_masks = generate_dstil_data(val_data, X_valD_input_
 # Make predictions based on the model
 predictions = model.predict([test_x, X_testD_input_ids, X_testD_attn_masks], verbose=0)
 
-# Map the genre labels
-genre = {
-        "country": 0,
-        "pop": 1,
-        "rap": 2,
-        "rock" : 3
-        }
-
 # Get the relevant information from the model results
 filename = "/Users/helenk05/Desktop/Final_Folder/full_saved_model/training_history_full.csv"
 history = pd.read_csv(filename, header=0, low_memory=False)
