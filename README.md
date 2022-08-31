@@ -39,10 +39,13 @@ If you want to make plots from the trained models, run ```graph_audio.py``` and 
 
 ![Thesis_Model drawio-2](https://user-images.githubusercontent.com/94328819/187284010-fb9f5e30-47b3-417b-9ef1-f7599a8a1ff2.png)
 
-## Creating an MRS from the Audio-only model 
+## Creating an MRS From the Audio-Only Model 
 Inspired by Shenoy(2019) and his repository (https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning)
 
 ![Recommendation drawio-2](https://user-images.githubusercontent.com/94328819/187284344-2ddc9b08-8563-499c-b65e-adf6087e25e0.png)
+
+## Experiment Setup for Evaluating the MRSs With Real Participants
+![Experiment drawio-3](https://user-images.githubusercontent.com/94328819/187571994-89db45e1-f275-422e-80f4-5748365a4e79.png)
 
 
 
